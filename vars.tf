@@ -14,7 +14,8 @@ variable AWS_REGION {
  }
 
  variable "PRIV_KEY_PATH" {
-   default = "vprofilekey"
+   default = ""
+   
     }
 
  variable PUB_KEY_PATH {
@@ -27,7 +28,7 @@ variable AWS_REGION {
  } 
 
  variable "MYIP" {
-   
+   default = "49.207.192.122/32"
  }
 
 variable rmquser {
