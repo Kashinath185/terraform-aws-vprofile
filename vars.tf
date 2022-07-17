@@ -72,7 +72,7 @@ variable Zone3 {
 default = "ap-south-1c"
 }
 
-variable "vpcCIDR" {
+variable vpcCIDR {
   default = "172.21.0.0/16"
 }
 
